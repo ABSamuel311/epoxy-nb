@@ -217,6 +217,7 @@ h2 {
     font-weight: 600;
     box-shadow: var(--box-shadow);
     text-decoration: none;
+    color: black;
   }
 
   a:visited {
