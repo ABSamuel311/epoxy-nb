@@ -1,0 +1,10 @@
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(90deg, #5B5CB3, #5FF7F7);
+}
