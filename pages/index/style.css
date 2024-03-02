@@ -1,9 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 /* Mobile container utility class: */
+
 .container {
   width: 100%;
   margin-left: auto;
-  margin-right: auto;padding-left: 0.5rem;
-padding-right: 0.5rem;
+  margin-right: auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 
 /* Globals */
@@ -158,14 +163,20 @@ h2 {
     display: flex;
     justify-content: center;
     text-decoration: none;
-    color: var(--background-color);
     margin: 1rem;
     font-size: 2rem;
+    color: var(--background-color);
+  }
+
+  .abcdef {
+    color: var(--background-color);
   }
 
   .mobile-nav-link i {
     padding-right: 8px;
+    color: var(--background-color);
   }
+
 
   /* Hamburger nav Style ^*/
 
