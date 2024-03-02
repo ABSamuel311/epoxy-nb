@@ -32,6 +32,7 @@ html {
   /* Resetting padding to ensure no unexpected spacing */
   color: var(--text-color);
   background-color: var(--background-color);
+  overflow-x: hidden;
 }
 
 * {
