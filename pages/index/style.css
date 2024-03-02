@@ -470,6 +470,12 @@ footer p {
     max-width: 1024px;
   }
 
+  .abcdef {
+    color: var(--text-color);
+  }
+
+
+
   header.hide {
     top: 0;
   }
@@ -480,6 +486,7 @@ footer p {
     backdrop-filter: none;
     height: 68px;
     padding: 10px 20px;
+
   }
 
   .mobile-nav-header,
@@ -506,7 +513,7 @@ footer p {
   .mobile-nav-link {
     display: inline;
     color: var(--text-color);
-    font-size: .8rem;
+    font-size: 1rem;
     font-weight: bold;
     margin: 0px;
     padding: 0 10px;
